@@ -1,0 +1,203 @@
+/* add tag selectors */
+body {
+    margin: 0px;
+    /*padding: 100px; */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    /*width: 10%;
+    margin: 0 auto;
+    */
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px, auto, 0, auto;
+    color: #66BFBF;
+    /*line-height: 2; */
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    margin: 0px;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 10px;
+    height: px;
+    width: 5%;
+    margin: 100px auto 50px auto;
+
+}
+
+a{
+	color:  #11999E;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #EAF6F6;
+}
+
+/*add class selectors use . */
+.top-container {
+    background-color: #EAF6F6;
+    padding: 100px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin-bottom: 80px;
+}
+
+.bottom-container {
+	padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #66BFBF;
+    height: 50px;
+}
+
+.middle {
+    background-color: red;
+    /*    border: solid 20px;
+
+    margin-left: 260px; */
+}
+
+.bottom {
+    background-color: yellow;
+    /*border: solid 10px; */
+    /*
+    margin-left: 500px; */
+}
+
+.pro {
+    color: red;
+    text-decoration: underline;
+    width: 100px;
+    display: inline-block;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /*absolute to its parent which is div so it's no longer on the same line as the mountain image*/
+    left: 300px;
+    top: 400px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.profile-img {
+    margin-top: 20px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.food-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.food-text {
+    /* clear: right;  */
+}
+
+/*
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 0px 1px 0px #66BFBF;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #66BFBF;
+}
+*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
+.code-intro {
+    width: 50%;
+    margin: auto auto 30px auto;
+    /*set the margins of the element to get the same, so the item can be sit in the middle.*/
+    line-height: 2;
+}
+
+.contact-me-desciption {
+    margin: 40px auto 60px;
+    /*top, left and right, bottom*/
+    width: 50%;
+}
+
+.copy-right{
+	margin: 10px auto;
+	color: whitesmoke;
+	font-size: 0.75rem;
+	padding: 20px auto;
+}
